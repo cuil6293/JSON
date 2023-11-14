@@ -90,11 +90,11 @@ function createElementProper(incomingJSON){
 	    let imageGallery = document.createElement("div");
     imageGallery.classList.add("image-gallery");
 
-    // Loop through the array of image URLs
+    // Loop through the array of images
     for (let i = 0; i < incomingJSON["images"].length; i++) {
         let newImage = document.createElement("img");
         newImage.src = incomingJSON["images"][i];
-        newImage.classList.add("imgClass"); // You can add a common class for styling if needed
+        newImage.classList.add("imgClass");
 
         // Create a separate anchor for Fancybox
         let newImageFancybox = document.createElement("a");
