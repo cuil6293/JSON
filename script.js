@@ -87,7 +87,7 @@ function createElementProper(incomingJSON){
 	newDescription.innerText = "Description: " + incomingJSON["description"];
 	newContentBox.appendChild(newDescription);
 
-	    let imageGallery = document.createElement("div");
+	  let imageGallery = document.createElement("div");
     imageGallery.classList.add("image-gallery");
 
     // Loop through the array of images
