@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Kurale&display=swap');
+
+body {
+	margin: 0px;
+	padding: 5vw;
+	padding-top: 0px;
+	background-image: url("bg.jpeg");
+	background-size: 80%;
+	background-repeat: repeat;
+	font-family: "Kurale";
+	font-size: 20px;
+}
+
+h1{
+	text-align: center;
+	font-family: "Amita";
+	font-size: 75px;
+	color: #fff;
+	background-image: url("https://d16x8vkrvdg2ca.cloudfront.net/contenthero/mylittleponyfriendsh_1101_800x300_1669045836899.jpg");
+	object-fit: contain;
+	border-radius: 10px;
+	text-shadow: 5px 5px 5px #000;
+}
+
+.newContentBox{
+	border: solid 5px #fff;
+	border-radius: 10px;
+}
+.newContentBox h2,
+.newContentBox p {
+    margin-bottom: 10px;
+    padding: 0px 10px 10px 10px;
+    color: #fff;
+}
+
+.imgClass{
+	margin: 5px;
+	width: 8w;
+	height: 8vw;
+	transition: transform 0.3s ease;
+	border-radius: 5px;
+}
+
+.imgClass:hover{
+	transform: scale(1.2);
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+#characters{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1.2vw;
+	height: 100%;
+}
