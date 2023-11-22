@@ -61,16 +61,16 @@ let jsonDatabase = [
 	"name": "Princess Celestia",
 	"type": "Alicorn",
 	"element": "Sun",
-	"description": "The princess and ruler of Equestria. She used to rule alongside her sister until something happened that separated the both of them for a while until the power of friendship was able to help them reunite and rule with each other. She's able to raise the sun with her magic and generally rules during the day.",
+	"description": "The princess and ruler of Equestria. She used to rule with her sister until a conflict caused them to separate for a while until Twilight and her friends reunited them. She rules during the day and raises the sun. Celestia is usually graceful and elegant, but she occasionally shows how she still has a lot to learn about herself and especially her sister.",
 	"images": ["Celestia1.webp", "Celestia2.webp", "Celestia3.webp"],
 	"backgroundColor": "#72c2c0",
 	"color": "#fffff"
 },
 {
-	"name": "Princess Luna",
+	"name": "Princess Celestia",
 	"type": "Alicorn",
-	"element": "Moon"
-	"description": "The princess and ruler of Equestria. Due to a conflict with her sister, Celestia, she turned into the villain Nightmare Moon and stayed that way until the power of friendship helped her snap out of it. She rules over the night and protects ponies in their dreams. She's more awkward than her sister.",
+	"element": "Moon",
+	"description": "The princess and ruler of Equestria. A conflict caused her to become Nightmare Moon, a pony who wanted Equestria to never see the sun again. She was able to break out of that thanks to Twilight and her friends and return as a princess. She rules during the night and raises the moon. Luna protects ponies in their dreams. She's more awkward than her sister.",
 	"images": ["Luna1.webp", "Luna2.webp", "Luna3.webp"],
 	"backgroundColor": "#2f3399",
 	"color": "#fffff"
