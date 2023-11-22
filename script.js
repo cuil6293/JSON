@@ -67,7 +67,7 @@ let jsonDatabase = [
 	"color": "#fffff"
 },
 {
-	"name": "Princess Celestia",
+	"name": "Princess Luna",
 	"type": "Alicorn",
 	"element": "Moon",
 	"description": "The princess and ruler of Equestria. A conflict caused her to become Nightmare Moon, a pony who wanted Equestria to never see the sun again. She was able to break out of that thanks to Twilight and her friends and return as a princess. She rules during the night and raises the moon. Luna protects ponies in their dreams. She's more awkward than her sister.",
