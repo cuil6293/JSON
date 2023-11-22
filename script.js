@@ -74,7 +74,7 @@ let jsonDatabase = [
 	"images": ["Luna1.webp", "Luna2.webp", "Luna3.webp"],
 	"backgroundColor": "#2f3399",
 	"color": "#fffff"
-},
+}
 ];
 
 
