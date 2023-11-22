@@ -75,7 +75,7 @@ let jsonDatabase = [
 	"backgroundColor": "#2f3399",
 	"color": "#fffff"
 },
-]
+];
 
 
 document.addEventListener('DOMContentLoaded', function() {
