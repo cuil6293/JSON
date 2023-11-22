@@ -102,7 +102,7 @@ function createElementProper(incomingJSON){
 	newContentBox.appendChild(newElement);
 
 	let newCutieMark = document.createElement("P");
-	newElement.innerText = "Cutie Mark: " + incomingJSON["cutie mark"];
+	newCutieMark.innerText = "Cutie Mark: " + incomingJSON["cutie mark"];
 	newContentBox.appendChild(newCutieMark);
 
 	let newDescription = document.createElement("P");
