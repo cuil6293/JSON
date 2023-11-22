@@ -56,8 +56,26 @@ let jsonDatabase = [
 	"images": ["Rarity1.png", "Rarity2.png", "Rarity3.png"],
 	"backgroundColor": "#db74c7",
 	"color": "#fffff"
-}
-];
+},
+{
+	"name": "Princess Celestia",
+	"type": "Alicorn",
+	"cutie mark": "Sun",
+	"description": "The princess and ruler of Equestria. She used to rule alongside her sister until something happened that separated the both of them for a while until the power of friendship was able to help them reunite and rule with each other. She's able to raise the sun with her magic and generally rules during the day.",
+	"images": ["Celestia1.webp", "Celestia2.webp", "Celestia3.webp"],
+	"backgroundColor": "#72c2c0",
+	"color": "#fffff"
+},
+{
+	"name": "Princess Luna",
+	"type": "Alicorn",
+	"cutie mark": "Moon"
+	"description": "The princess and ruler of Equestria. Due to a conflict with her sister, Celestia, she turned into the villain Nightmare Moon and stayed that way until the power of friendship helped her snap out of it. She rules over the night and protects ponies in their dreams. She's more awkward than her sister.",
+	"images": ["Luna1.webp", "Luna2.webp", "Luna3.webp"],
+	"backgroundColor": "#2f3399",
+	"color": "#fffff"
+},
+]
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -82,6 +100,10 @@ function createElementProper(incomingJSON){
 	let newElement = document.createElement("P");
 	newElement.innerText = "Element: " + incomingJSON["element"];
 	newContentBox.appendChild(newElement);
+
+	let newCutieMark = document.createElement("P");
+	newElement.innerText = "Cutie Mark: " + incomingJSON["cutie mark"];
+	newContentBox.appendChild(newCutieMark);
 
 	let newDescription = document.createElement("P");
 	newDescription.innerText = "Description: " + incomingJSON["description"];
